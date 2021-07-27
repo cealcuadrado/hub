@@ -1,4 +1,16 @@
 header {
+  img {
+    @media screen and (max-width: 991px) {
+      width: 30px;
+      height: 30px;
+    }
+
+    @media screen and (min-width: 992px) {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
   @media screen and (max-width: 991px) {
     position: fixed;
     top: 0;
@@ -12,6 +24,7 @@ header {
   }
 
   @media screen and (min-width: 992px) {
+    padding-top: 1rem;
     position: sticky;
     top: 0;
   }
